@@ -1,0 +1,9 @@
+﻿<Parent>
+  <child1>
+    <A>a</A>
+    <B>b</B>
+  </child1>
+  <child2>
+    <c>c</c>
+  </child2>
+</Parent>

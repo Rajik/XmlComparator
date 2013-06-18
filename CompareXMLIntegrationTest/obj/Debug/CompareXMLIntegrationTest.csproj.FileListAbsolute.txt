@@ -1,0 +1,9 @@
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\CompareXMLIntegrationTest.dll
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\CompareXMLIntegrationTest.pdb
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\CompareXML.dll
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\nunit.framework.dll
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\CompareXML.pdb
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\bin\Debug\nunit.framework.xml
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\obj\Debug\CompareXMLIntegrationTest.dll
+C:\Users\607366462\desktop\CompareXML\CompareXMLIntegrationTest\obj\Debug\CompareXMLIntegrationTest.pdb

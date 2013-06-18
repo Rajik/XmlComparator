@@ -1,0 +1,5 @@
+C:\Users\607366462\desktop\CompareXML\CompareXML\bin\Debug\CompareXML.dll
+C:\Users\607366462\desktop\CompareXML\CompareXML\bin\Debug\CompareXML.pdb
+C:\Users\607366462\desktop\CompareXML\CompareXML\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\607366462\desktop\CompareXML\CompareXML\obj\Debug\CompareXML.dll
+C:\Users\607366462\desktop\CompareXML\CompareXML\obj\Debug\CompareXML.pdb
