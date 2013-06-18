@@ -4,7 +4,10 @@
     <B>b</B>
   </child1>
   <child2>
-    <c>c</c>
-    <d>d</d>
+    <c>z</c>
+    <d>z</d>
   </child2>
+  <child3>
+    
+  </child3>
 </Parent>

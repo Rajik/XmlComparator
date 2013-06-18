@@ -10,12 +10,10 @@ namespace CompareXML
     public class XmlComparator
     {
         private static bool flag;
-        public static bool Compare(XElement doc1, XElement doc2)
+        public static bool Compare(XElement expected, XElement actual)
         {
-//            var enumerator1 = doc1.DescendantsAndSelf().GetEnumerator();
-//            var enumerator2 = doc2.DescendantsAndSelf().GetEnumerator();
-            var enumerator1 = new EnumeratorAdapter<XElement>(doc1.DescendantsAndSelf().GetEnumerator());
-            var enumerator2 = new EnumeratorAdapter<XElement>(doc2.DescendantsAndSelf().GetEnumerator());
+            var enumerator1 = new EnumeratorAdapter<XElement>(expected.DescendantsAndSelf().GetEnumerator());
+            var enumerator2 = new EnumeratorAdapter<XElement>(actual.DescendantsAndSelf().GetEnumerator());
             while (enumerator1.HasNext && enumerator2.HasNext)
                     {
                         var element1 = enumerator1.Next();
@@ -42,7 +40,7 @@ namespace CompareXML
                                  !string.IsNullOrEmpty(xelementValue)) && xelementValue != element1.Value)
                             {
                                 if (!element2.HasElements)
-                                    Console.Write("Expected {0}: {1} but actual was {2}:{3} \n Parent Node was {4}",
+                                    Console.Write("Expected {0}:{1} but actual was {2}:{3} for parent {4}",
                                                   xElementName, xelementValue,
                                                   element1.Name.LocalName,
                                                   element1.Value, element1.Parent.Name.LocalName);
@@ -53,8 +51,6 @@ namespace CompareXML
                                 return false;
                             }
                         }
-
-                        
                     }
 
                     if (!enumerator1.HasNext && enumerator2.HasNext)
